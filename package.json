@@ -1,0 +1,15 @@
+{
+  "name": "learnajax",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "parcel --no-cache index.html --open",
+    "server": "json-server --watch db.json"
+  },
+  "author": "Helen",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}

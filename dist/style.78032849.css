@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #d6dfe1;
+}
+
+form {
+    width: 600px;
+    margin: auto;
+    margin-top: 15px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 45px;
+    background: linear-gradient(#c66284, #503c5c);
+    box-shadow: 1px 1px 5px 0px rgba(255,255,255,1);
+    color: aliceblue;
+}
+
+h1 {
+    color: antiquewhite;
+    font-weight: bold;
+    text-align: center;
+}
+
+label {
+    font-size: 20px;
+}
+
+input  {
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    font-size: 17px;
+    margin-bottom: 15px;
+    border: none;
+    outline: none;
+}
+
+.add-task, .reset {
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 10px;
+    width: 120px;
+    font-size: 17px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 300ms linear;
+}
+
+.add-task:hover, .reset:hover {
+    background-color: #c66284;
+    color: antiquewhite;
+}
+
+.task-wrapper {
+    margin: auto;
+    margin-top: 20px;
+    max-width: 600px;
+}
+
+.edit {
+    border-radius: 10px;
+    padding: 10px 80px 10px 30px;
+    font-size: 18px;
+    background: linear-gradient(#c66284, #503c5c);
+    color: antiquewhite;
+    margin: 0;
+    overflow: hidden;
+}
+
+.task {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.close {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    padding: 5px 10px;
+    background-color: #c66284;
+    color: antiquewhite;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .close:hover {
+    background-color: #503c5c;
+    color: antiquewhite;
+  }
+
+  .save-btn {
+    position: absolute;
+    right: 40px;
+    top: 5px;
+    padding: 5px 10px;
+    background-color: #c66284;
+    color: antiquewhite;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .save-btn:hover {
+    background-color: #503c5c;
+    color: antiquewhite;
+  }
+
+  .edit:hover {
+    background: #503c5c;
+  }
+
+ .checked {
+    position: absolute;
+    width: 30px;
+    top: 12px;
+    left: 0;
+    cursor: pointer;
+  }
+
+
+  
+
+
+  
+
+/*# sourceMappingURL=/style.78032849.css.map */
